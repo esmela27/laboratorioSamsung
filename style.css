@@ -1,0 +1,79 @@
+.input-wrapper {
+    position: relative;
+    width: 271px;
+  }
+  .success-icon,
+  .failure-icon {
+    right: 0;
+    opacity: 0;
+  }
+  .input {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+  }
+  
+  .input.texto {
+    padding: 15px 40px 10px 10px;
+    border-radius: 5px;
+  }
+  
+  .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .input-icon.texto {
+    left: unset;
+    right: 12px;
+  }
+  .error{
+      color: rgb(167, 53, 53);
+  }
+      body{
+          background-color: rgb(44, 46, 51);
+      }
+      h2{
+          color: rgb(140, 187, 206);
+      }
+      form{
+          
+          color: rgb(118, 147, 160);
+          font-family: sans-serif;
+          background-color:rgb(69, 69, 94) ;
+          border-radius: 5px;
+          padding: 30px;
+  
+      }
+      button{
+          padding-left: 110px;
+          padding-right: 110px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background-color: rgb(73, 73, 201);
+          color: aliceblue;
+          border-radius: 5px;
+      }
+      button:hover {
+    opacity: 0.8;
+  }
+      .incorrecto{
+          border: 3px solid red;
+      }
+      .correcto{
+          border: 3px solid green;
+      }
+      #contenedor{
+          display: grid;
+          place-content: center; 
+          padding: 25px;
+          margin-left: 300px;
+          margin-right: 300px;
+          border-radius: 5px;
+      }
